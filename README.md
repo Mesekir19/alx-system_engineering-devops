@@ -1,2 +1,1 @@
-# alx-system_engineering-devops
-shell repo 
+My read me file for the shell redirection
