@@ -1,0 +1,2 @@
+#!/bin/bash
+ls $USER | tr ' ' '\n' | paste -d, -- | cut -d, -f1
