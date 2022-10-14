@@ -35,7 +35,7 @@ errorfile 503 /etc/haproxy/errors/503.http
 errorfile 504 /etc/haproxy/errors/504.http
 frontend http_front
 bind *:80
-bind *:443 ssl crt /etc/ssl/www.mesekir-getachew19.tech/www.mesekir-getachew19.tech.pem
+bind *:443 ssl crt etc/letsencrypt/live/www.mesekir-getachew19.tech-0001/mesekir-getachew19.tech.pem
 
 redirect scheme https if !{ ssl_fc }
 
